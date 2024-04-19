@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda | SiBujang</title>
+
+    <!-- css bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- css bootstrap -->
+
+    <!-- own css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- own css -->
+
+    <!-- remix icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- remix icon cdn -->
+  </head>
+  <body>
+    <!-- js bootstrap -->
+
+    <!-- navigasi section start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark sticky-top"
+      style="background-color: #0d6efd"
+    >
+      <div class="container-sm container">
+        <a
+          class="navbar-brand fs-3 fw-bold fst-italic"
+          href="https://getbootstrap.com/"
+          >SiBujang</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-1 text-color-1">
+              <a
+                class="nav-link white-color fw-medium"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link white-color fw-medium" href="html/about.html"
+                >Tentang Kami</a
+              >
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link disabled white-color fw-medium" href="#"
+                >Program</a
+              >
+            </li>
+            <li class="nav-item mx-1 dropdown">
+              <a
+                class="nav-link disabled dropdown-toggle white-color fw-medium"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Layanan
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item mx-1" href="#">Konsultasi</a></li>
+                <li>
+                  <a class="dropdown-item mx-1" href="#">Bimbingan Karir</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item mx-1" href="#">Info Beasiswa</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link white-color fw-medium" href="html/contact.html"
+                >Kontak</a
+              >
+            </li>
+          </ul>
+
+          <div class="button">
+            <a
+              href="html/login.html"
+              id="btn-login"
+              class="btn btn-1 white-color"
+              >Masuk</a
+            >
+            <a href="html/regis.html" id="btn-regis" class="btn btn-2"
+              >Daftar</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navigasi section end -->
+
+    <!-- hero section start -->
+    <section class="hero container my-3">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6 bx-shadow">
+          <div class="image mb-3" style="width: 100%">
+            <img src="image/hero.jpg" width="100%" alt="hero-image" />
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-sm">
+          <h1 class="black-color fw-bold">
+            "Bersama Kami, Belajar Manjadi Lebih Mudah dan Menyenangkan."
+          </h1>
+          <p class="black-color fw-medium">
+            SiBujang menyediakan bimbel terbaik di Indonesia, terjangkau untuk
+            semua kalangan.
+          </p>
+          <div class="button">
+            <a href="#" class="btn btn-3">Lihat alur belajar</a>
+            <a href="#" class="btn btn-4">Coba kelas gratis</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- section services start -->
+    <section
+      class="services container main-color p-3 px-4 rounded-3 align-content-center"
+      style="height: auto"
+    >
+      <div class="row d-flex align-content-center justify-content-center">
+        <div
+          class="d-flex align-items-center col-lg-2 col-md-3 col-sm-6 bgc-white rounded-2 m-2 align-content-center"
+          style="width: 10.6rem; height: 70px"
+        >
+          <div class="icon me-3">
+            <i
+              class="ri-live-fill rounded-5 bg-white p-2 fs-4"
+              style="color: #fd7e14"
+            ></i>
+          </div>
+          <div class="text white-color fw-medium">Video belajar & soal</div>
+        </div>
+
+        <div
+          class="d-flex align-items-center col-6 col-lg-2 col-md-3 col-sm-6 bgc-white rounded-2 m-2 align-content-center"
+          style="width: 10.6rem; height: 70px"
+        >
+          <div class="icon me-3">
+            <i
+              class="ri-group-fill bg-white rounded-5 p-2 fs-4"
+              style="color: #6f42c1"
+            ></i>
+          </div>
+          <div class="text white-color fw-medium">Bimbingan karir</div>
+        </div>
+
+        <div
+          class="d-flex align-items-center col-6 col-lg-2 col-md-3 col-sm-6 bgc-white rounded-2 m-2 align-content-center"
+          style="width: 10.6rem; height: 70px"
+        >
+          <div class="icon me-3">
+            <i
+              class="ri-book-fill bg-white rounded-5 p-2 fs-4"
+              style="color: #d63384"
+            ></i>
+          </div>
+          <div class="text white-color fw-medium">Instensif UTBK-SNBT</div>
+        </div>
+
+        <div
+          class="d-flex align-items-center col-6 col-lg-2 col-md-3 col-sm-6 bgc-white rounded-2 m-2 align-content-center"
+          style="width: 10.6rem; height: 70px"
+        >
+          <div class="icon me-3">
+            <i
+              class="ri-book-marked-fill rounded-5 bg-white p-2 fs-4"
+              style="color: #d63384"
+            ></i>
+          </div>
+          <div class="text white-color fw-medium">Test TOEFL</div>
+        </div>
+
+        <div
+          class="d-flex align-items-center col-6 col-lg-2 col-md-3 col-sm-6 bgc-white rounded-2 m-2 align-content-center"
+          style="width: 10.6rem; height: 70px"
+        >
+          <div class="text white-color fw-medium">Pembelajaran interaktif</div>
+        </div>
+
+        <div
+          class="d-flex align-items-center col-6 col-lg-2 col-md-3 col-sm-6 bgc-white rounded-2 m-2 align-content-center"
+          style="width: 10.6rem; height: 70px"
+        >
+          <div class="icon me-3">
+            <i class="ri-dashboard-fill rounded-5 bg-white p-2 fs-4"></i>
+          </div>
+          <div class="text white-color fw-medium">Temukan kelas lainnya</div>
+        </div>
+      </div>
+    </section>
+    <!-- section services start -->
+
+    <!-- paket class section start -->
+    <section class="container-fluid py-5">
+      <div class="container">
+        <div class="text">
+          <h1 class="black-color fs-5">
+            Paket kelas populer untuk
+            <select name="#" id="" class="form-select">
+              <option value="kels10">Kelas 1-6 SD/MI</option>
+              <option value="kels10">Kelas 7-9 SMP/MTS</option>
+              <option value="kels10">Kelas 10-12 SMA/MA</option>
+            </select>
+          </h1>
+        </div>
+
+        <!-- card -->
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-3 mb-sm-3 mb-md-3">
+            <div class="card my-card-style">
+              <img src="image/hero.jpg" class="card-img-top" alt="img" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Video belajar dan latihan soal Tes Skolastik
+                </h5>
+                <p class="card-text">
+                  Belajar intensif untuk menghadapi tes skolastik.
+                </p>
+                <a href="#" class="btn btn-3 d-block mb-2">Beli paket</a>
+                <a href="#" class="btn btn-4 d-block">Lihat detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-3 mb-sm-3 mb-md-3">
+            <div class="card my-card-style">
+              <img src="image/hero.jpg" class="card-img-top" alt="img" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Video belajar dan latihan soal Tes Skolastik
+                </h5>
+                <p class="card-text">
+                  Belajar intensif untuk menghadapi tes skolastik.
+                </p>
+                <a href="#" class="btn btn-3 d-block mb-2">Beli paket</a>
+                <a href="#" class="btn btn-4 d-block">Lihat detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-3 mb-sm-3 mb-md-3">
+            <div class="card my-card-style">
+              <img src="image/hero.jpg" class="card-img-top" alt="img" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Video belajar dan latihan soal Tes Skolastik
+                </h5>
+                <p class="card-text">
+                  Belajar intensif untuk menghadapi tes skolastik.
+                </p>
+                <a href="#" class="btn btn-3 d-block mb-2">Beli paket</a>
+                <a href="#" class="btn btn-4 d-block">Lihat detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-3 mb-sm-3 mb-md-3">
+            <div class="card my-card-style">
+              <img src="image/hero.jpg" class="card-img-top" alt="img" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Video belajar dan latihan soal Tes Skolastik
+                </h5>
+                <p class="card-text">
+                  Belajar intensif untuk menghadapi tes skolastik.
+                </p>
+                <a href="#" class="btn btn-3 d-block mb-2">Beli paket</a>
+                <a href="#" class="btn btn-4 d-block">Lihat detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+      </div>
+    </section>
+    <!-- paket class section end -->
+
+    <!-- mentor section start -->
+    <section class="mentor container-fluid">
+      <div class="container">
+        <div class="text">
+          <h1 class="fs-5 black-color">Belajar bersama para master</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-3 mb-sm-3 mb-md-3">
+            <div class="card border-0 main-color white-color">
+              <img
+                src="image/mentor1.jpg "
+                class="card-img-top"
+                alt="mentor-1"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Vania</h5>
+                <p class="card-text text-center fw-light">Master Fisika</p>
+                <hr />
+                <p class="card-text">Pengalaman dan prestasi:</p>
+                <ul>
+                  <li>Lulusan terbaik jurusan fisika</li>
+                  <li>Penerbit jurnal ilmiah</li>
+                  <li>Asisted dosen</li>
+                  <li>Juara 1 lomba karya tulis ilmiah tingkat nasional</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-3 mb-sm-3 mb-md-3">
+            <div class="card border-0 main-color white-color">
+              <img
+                src="image/mentor1.jpg "
+                class="card-img-top"
+                alt="mentor-1"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Vania</h5>
+                <p class="card-text text-center fw-light">Master Fisika</p>
+                <hr />
+                <p class="card-text">Pengalaman dan prestasi:</p>
+                <ul>
+                  <li>Lulusan terbaik jurusan fisika</li>
+                  <li>Penerbit jurnal ilmiah</li>
+                  <li>Asisted dosen</li>
+                  <li>Juara 1 lomba karya tulis ilmiah tingkat nasional</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-3 mb-sm-3 mb-md-3">
+            <div class="card border-0 main-color white-color">
+              <img
+                src="image/mentor1.jpg "
+                class="card-img-top"
+                alt="mentor-1"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Vania</h5>
+                <p class="card-text text-center fw-light">Master Fisika</p>
+                <hr />
+                <p class="card-text">Pengalaman dan prestasi:</p>
+                <ul>
+                  <li>Lulusan terbaik jurusan fisika</li>
+                  <li>Penerbit jurnal ilmiah</li>
+                  <li>Asisted dosen</li>
+                  <li>Juara 1 lomba karya tulis ilmiah tingkat nasional</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-3 mb-sm-3 mb-md-3">
+            <div class="card border-0 main-color white-color">
+              <img
+                src="image/mentor1.jpg "
+                class="card-img-top"
+                alt="mentor-1"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Vania</h5>
+                <p class="card-text text-center fw-light">Master Fisika</p>
+                <hr />
+                <p class="card-text">Pengalaman dan prestasi:</p>
+                <ul>
+                  <li>Lulusan terbaik jurusan fisika</li>
+                  <li>Penerbit jurnal ilmiah</li>
+                  <li>Asisted dosen</li>
+                  <li>Juara 1 lomba karya tulis ilmiah tingkat nasional</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- mentor section end -->
+
+    <!-- cs section start -->
+    <div class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+          <img src="image/contact-us.jpg" width="300px" alt="cs" />
+        </div>
+        <div class="col-4">
+          <div class="text">
+            <h3 class="fs-6">Masih bingung? Ada pertanyaan?</h3>
+            <h1 class="fs-4">Hubungi tim kami untuk melakukan konsultasi!</h1>
+          </div>
+        </div>
+        <div class="col-4">
+          <a href="#" class="btn btn-2">Chat tim kami</a>
+        </div>
+      </div>
+    </div>
+    <!-- cs section end -->
+
+    <!-- paling sering ditanyakan -->
+    <div class="container my-5">
+      <div class="text">
+        <h1 class="text-center fs-5 mb-3">Paling sering ditanyakan</h1>
+      </div>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Apa itu platform pembelajaran online?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>Platform pembelajaran online adalah</strong> suatu sistem
+              atau aplikasi yang memungkinkan para pengajar dan siswa untuk
+              berinteraksi secara online dalam konteks pembelajaran jarak jauh.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Apa saja layanan pada platform pembelajaran SiBujang?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                <strong>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </strong>
+                Tempore labore voluptatem totam facere fugiat? Culpa vero
+                ducimus cupiditate reprehenderit et soluta, magni sint?
+                Consectetur, et.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Berapa harga langganan di SiBujang?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control
+              the overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              Bagaimana alur belajar di SiBujang?
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control
+              the overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- paling sering ditanyakan -->
+
+    <!-- footer section start -->
+    <div class="container-fluid py-5 content-subscribe main-color white-color">
+      <div class="container">
+        <h5 class="text-center mb-4">Temui Kami</h5>
+        <div class="row justify-content-center">
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-instagram-line white-color fs-5"></i
+            ></a>
+          </div>
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-twitter-x-fill white-color fs-5"></i
+            ></a>
+          </div>
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-linkedin-box-line white-color fs-5"></i
+            ></a>
+          </div>
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-facebook-fill white-color fs-5"></i
+            ></a>
+          </div>
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-youtube-line white-color fs-5"></i
+            ></a>
+          </div>
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-mail-line white-color fs-5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid py-3 bg-dark text-light">
+      <div class="container d-flex justify-content-between">
+        <label>&copy;2024 SiBujang</label>
+        <label>Created with ❤️ by Developer Team</label>
+      </div>
+    </div>
+    <!-- footer section end -->
+
+    <!-- js bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js bootstrap -->
+
+    <!-- own js file -->
+    <script src="js/activeLink.js"></script>
+    <!-- own js file -->
+  </body>
+</html>

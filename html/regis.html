@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <!-- css bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- css bootstrap -->
+
+    <!-- own css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- own css -->
+
+    <!-- remix icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- remix icon cdn -->
+  </head>
+  <body>
+    <!-- navigasi section start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark sticky-top"
+      style="background-color: #0d6efd"
+    >
+      <div class="container-sm container">
+        <a class="navbar-brand fs-3 fw-bold fst-italic" href="../beranda.html"
+          >SiBujang</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-1 text-color-1">
+              <a
+                class="nav-link white-color fw-medium"
+                aria-current="page"
+                href="../beranda.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link white-color fw-medium" href="about.html"
+                >Tentang Kami</a
+              >
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link disabled white-color fw-medium" href="#"
+                >Program</a
+              >
+            </li>
+            <li class="nav-item mx-1 dropdown">
+              <a
+                class="nav-link disabled dropdown-toggle white-color fw-medium"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Layanan
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item mx-1" href="#">Konsultasi</a></li>
+                <li>
+                  <a class="dropdown-item mx-1" href="#">Bimbingan Karir</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item mx-1" href="#">Info Beasiswa</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link white-color fw-medium" href="contact.html"
+                >Kontak</a
+              >
+            </li>
+          </ul>
+
+          <div class="button">
+            <a href="login.html" id="btn-login" class="btn btn-1 white-color"
+              >Masuk</a
+            >
+            <a href="regis.html" id="btn-regis" class="btn btn-2">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navigasi section end -->
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6">
+          <div class="image w-100">
+            <img
+              src="../image/regis-image.jpg"
+              alt="regis-image"
+              width="100%"
+            />
+          </div>
+        </div>
+        <div class="col-12 cpl-lg-6 col-sm">
+          <div class="text">
+            <h1 class="fw-bold black-color">Daftar akun SiBujang</h1>
+          </div>
+
+          <!-- form -->
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label black-color"
+                >Nama lengkap</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                aria-describedby="emailHelp"
+              />
+              <p class="p-size fw-light black-color">Masukkan nama asli Anda</p>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label black-color"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <p class="p-size fw-light black-color">
+                Gunakan email aktif Anda
+              </p>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label black-color"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+              <p class="p-size fw-light black-color">
+                Gunakan minimal 8 karakter dengan kombinasi huruf, angka dan
+                simbol
+              </p>
+            </div>
+            <div class="buttonn">
+              <button type="submit" class="btn btn-primary w-100">
+                Daftar
+              </button>
+              <p class="text-center my-1 black-color fw-light">atau</p>
+              <button type="submit" class="btn btn-primary w-100">
+                Daftar dengan akun google
+              </button>
+              <p class="text-center my-1 black-color fw-light">
+                Sudah punya akun? <a href="login.html">Masuk sekarang!</a>
+              </p>
+            </div>
+          </form>
+          <!-- form -->
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section start -->
+    <div class="container-fluid py-5 content-subscribe main-color white-color">
+      <div class="container">
+        <h5 class="text-center mb-4">Temui Kami</h5>
+        <div class="row justify-content-center">
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-instagram-line white-color fs-5"></i
+            ></a>
+          </div>
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-twitter-x-fill white-color fs-5"></i
+            ></a>
+          </div>
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-linkedin-box-line white-color fs-5"></i
+            ></a>
+          </div>
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-facebook-fill white-color fs-5"></i
+            ></a>
+          </div>
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-youtube-line white-color fs-5"></i
+            ></a>
+          </div>
+          <div class="col-sm-1 d-flex justofy-content-center mb-2">
+            <a class="text-decoration-none" href="#"
+              ><i class="ri-mail-line white-color fs-5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid py-3 bg-dark text-light">
+      <div class="container d-flex justify-content-between">
+        <label>&copy;2024 SiBujang</label>
+        <label>Created with ❤️ by Developer Team</label>
+      </div>
+    </div>
+    <!-- footer section end -->
+
+    <!-- js bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js bootstrap -->
+    <!-- js bootstrap -->
+  </body>
+</html>
